@@ -32,11 +32,11 @@ function App() {
       <div className='container'>
         <div className='todolist'>
           <FormTodo addTodo={addTodo} />
-          <div>
-            {todos.map((todo, index) => (
-              <p>
+          <div >
+            {todos.map((todo,index) => (
+             <p>
                   <Todo
-                  key={index}
+                  key={Todo+index}
                   index={index}
                   todo={todo}
                   markTodo={markTodo}

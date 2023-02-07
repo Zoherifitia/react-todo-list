@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render app renders correctly 1`] = `
+<div
+  className="app"
+>
+  <h1>
+    Todo List
+  </h1>
+  <div
+    className="container"
+  >
+    <div
+      className="todolist"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <h3>
+          Todo
+        </h3>
+        <input
+          className="input_todo"
+          onChange={[Function]}
+          placeholder="Add new todo"
+          type="text"
+          value=""
+        />
+      </form>
+      <div>
+        <p>
+          <div
+            className="todo"
+          >
+            <div
+              className="input"
+            >
+              <input
+                id={0}
+                onClick={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor={0}
+              />
+              <span>
+                This is a sample todo
+              </span>
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>
+    <div
+      className="donelist"
+    >
+      <h3>
+        done
+      </h3>
+      <p>
+        this todo is done
+      </p>
+      <p />
+    </div>
+  </div>
+</div>
+`;

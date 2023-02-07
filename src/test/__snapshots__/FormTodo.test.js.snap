@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTodo component renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Todo
+  </h3>
+  <input
+    className="input_todo"
+    onChange={[Function]}
+    placeholder="Add new todo"
+    type="text"
+    value=""
+  />
+</form>
+`;
